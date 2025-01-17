@@ -1,0 +1,107 @@
+interactions:
+- request:
+    body: '{"messages":[{"content":"You are a helpful AI assistant.\n\n    Human:
+      What is the capital of France?\n    Assistant: Let me help you with that. []","role":"user"}],"model":"gpt-4","stream":false,"temperature":0.7,"tools":[{"type":"function","function":{"name":"tavily_search_results_json","description":"A
+      search engine optimized for comprehensive, accurate, and trusted results. Useful
+      for when you need to answer questions about current events. Input should be
+      a search query.","parameters":{"properties":{"query":{"description":"search
+      query to look up","type":"string"}},"required":["query"],"type":"object"}}}]}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '617'
+      content-type:
+      - application/json
+      host:
+      - api.openai.com
+      user-agent:
+      - OpenAI/Python 1.59.7
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.59.7
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.13.1
+    method: POST
+    uri: https://api.openai.com/v1/chat/completions
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jFJNa9wwEL37Vww67wY7G5LN3lpIIaWH0jZQKMXMSmNbXVlSNOOSEva/
+        F3k/7JAUetFh3ryn92bmuQBQ1qgNKN2h6D665bvH77uv7Scd8eHyttzeP+rV+6cv6f6j3z3cqUVm
+        hO0v0nJiXejQR0digz/AOhEKZdXqZnVTrq+rq/UI9MGQy7Q2yvJqWV5XqyOjC1YTqw38KAAAnsc3
+        e/OGntQGysWp0hMztqQ25yYAlYLLFYXMlgW9qMUE6uCF/Gj3W0egMVpBB6GBDwm9JrAMnzFZvpiz
+        EjUDY3brB+eO9f3ZhgttTGHLR/xcb6y33NWJkIPPX7KEqEZ0XwD8HOMOLxKomEIfpZawI58Fq/L2
+        oKemyU7oCZMg6Gakar14Q642JGgdz+alNOqOzESdhouDsWEGFLPQr828pX0Ibn37P/IToDVFIVPH
+        RMbql4GntkT57v7Vdh7yaFgxpd9WUy2WUl6EoQYHd7gMxX9YqK8b61tKMdnxPMZF74u/AAAA//8D
+        APL+TvwVAwAA
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 90336969cd30ac68-QRO
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 17 Jan 2025 03:55:48 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=q7Ji4B5SOFRtEJVDyRAPc9ap36cGZ25N.urNUfMSi9E-1737086148-1.0.1.1-e1XsyAv6Qmn.wZ85nO9_UpNxRI.vjirmhtkDrdRBLBDMminz5YNBnyVBq19UIhvVbLLz2XFvol80A1YrxIAqfA;
+        path=/; expires=Fri, 17-Jan-25 04:25:48 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=TSN19xzsOaX4ePlu79ikbgqKxWCdvV8KeJrnM_zb6CI-1737086148965-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      access-control-expose-headers:
+      - X-Request-ID
+      alt-svc:
+      - h3=":443"; ma=86400
+      openai-organization:
+      - felipaomx
+      openai-processing-ms:
+      - '587'
+      openai-version:
+      - '2020-10-01'
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      x-ratelimit-limit-requests:
+      - '10000'
+      x-ratelimit-limit-tokens:
+      - '10000'
+      x-ratelimit-remaining-requests:
+      - '9999'
+      x-ratelimit-remaining-tokens:
+      - '9953'
+      x-ratelimit-reset-requests:
+      - 8.64s
+      x-ratelimit-reset-tokens:
+      - 282ms
+      x-request-id:
+      - req_7db9362e3c1c688d93ddad2f62760ef1
+    status:
+      code: 200
+      message: OK
+version: 1

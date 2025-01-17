@@ -1,0 +1,18 @@
+[project]
+name = "test-vcr-llms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-openai>=0.3.0",
+    "langchain>=0.3.14",
+    "langchain-anthropic>=0.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest-vcr>=1.0.2",
+    "pytest>=8.3.4",
+    "vcrpy>=7.0.0",
+]

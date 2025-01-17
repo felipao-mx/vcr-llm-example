@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: '{"max_tokens":1024,"messages":[{"role":"user","content":"hi!"}],"model":"claude-3-5-sonnet-20240620","system":"Translate
+      the following from English into Italian"}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      anthropic-version:
+      - '2023-06-01'
+      connection:
+      - keep-alive
+      content-length:
+      - '162'
+      content-type:
+      - application/json
+      host:
+      - api.anthropic.com
+      user-agent:
+      - Anthropic/Python 0.43.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 0.43.0
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.13.1
+    method: POST
+    uri: https://api.anthropic.com/v1/messages
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2SOT0vEMBTEP4tzTqGtrgs56lUP/r2IhJg81tTuS817EaX0u0sXFxRPA/ObGWZG
+        irDYy8613UWJH9eb++Gme6Du6lFe8t1wO8BAvyZaUyTidwSDksfV8CJJ1LPCYJ8jjbAIo6+RmtNm
+        00hmJm36tj9rz/sWBiGzEivs03wcVfpc6wexuEw+n2B5NhDNkyvkJTMsiKPTWhg/QOi9EgeC5TqO
+        BvVwzM5IPFV1mt+IBbbbGgQfXsmFQl5TZvc30B55IR//s1z1t7Ndlm8AAAD//wMAtzqwqjEBAAA=
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 9032c2c5591a3593-DFW
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 17 Jan 2025 02:02:03 GMT
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      X-Robots-Tag:
+      - none
+      anthropic-ratelimit-input-tokens-limit:
+      - '40000'
+      anthropic-ratelimit-input-tokens-remaining:
+      - '40000'
+      anthropic-ratelimit-input-tokens-reset:
+      - '2025-01-17T02:02:03Z'
+      anthropic-ratelimit-output-tokens-limit:
+      - '8000'
+      anthropic-ratelimit-output-tokens-remaining:
+      - '8000'
+      anthropic-ratelimit-output-tokens-reset:
+      - '2025-01-17T02:02:03Z'
+      anthropic-ratelimit-requests-limit:
+      - '50'
+      anthropic-ratelimit-requests-remaining:
+      - '49'
+      anthropic-ratelimit-requests-reset:
+      - '2025-01-17T02:02:03Z'
+      anthropic-ratelimit-tokens-limit:
+      - '48000'
+      anthropic-ratelimit-tokens-remaining:
+      - '48000'
+      anthropic-ratelimit-tokens-reset:
+      - '2025-01-17T02:02:03Z'
+      request-id:
+      - req_01Cnp7bfJMCMv193iGxAx2rb
+      via:
+      - 1.1 google
+    status:
+      code: 200
+      message: OK
+version: 1
